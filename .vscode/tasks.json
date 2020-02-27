@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "C:\\Users\\duria\\scoop\\apps\\gcc\\current\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${workspaceFolder}\\out.exe"
+            ],
+            "options": {
+                "cwd": "C:\\Users\\duria\\scoop\\apps\\gcc\\current\\bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
