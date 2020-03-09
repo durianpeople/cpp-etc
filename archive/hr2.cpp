@@ -16,10 +16,6 @@ int sherlockAndAnagrams(string s)
     int found_pairs = 0;
     for (int substring_length = 1; substring_length < s.size(); substring_length++)
     {
-        if (substring_length == 2)
-        {
-            int sink = 0;
-        }
         vector<USM *> usms;
         for (int pointer = 0; pointer <= s.size() - substring_length; pointer++)
         {
